@@ -1,5 +1,4 @@
 from pytest_bdd import given, when, then
-from delivery import calculate_delivery
 from apply_discount import apply_discount
 
 

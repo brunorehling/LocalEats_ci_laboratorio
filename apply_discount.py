@@ -1,5 +1,6 @@
 from delivery import calculate_delivery 
 
+
 def apply_discount(total: calculate_delivery) -> float:
     if total >= 100:
         discount_percent = 0.80
