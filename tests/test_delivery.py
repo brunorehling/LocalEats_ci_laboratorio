@@ -16,7 +16,7 @@ def test_calculate_delivery_valores_negativos():
     assert resultado == 47.5
 
 
-@pytest.mark.xfail(raises=TypeError, 
+@pytest.mark.xfail(raises=TypeError,
                    reason="Bug conhecido: nao valida tipo dos itens (ver Issue #X)")
 def test_calculate_delivery_com_string():
     calculate_delivery(['abc', 20, 30], 15)
