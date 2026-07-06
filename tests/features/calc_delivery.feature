@@ -8,3 +8,9 @@ Feature: Calculo do total do valor de entrega do pedido
     And a distancia da entrega é de 15 km
     When o sistema calcula o valor total
     Then o resultado deve ser 67.5
+
+Scenario: Pedido com apenas um item
+    Given que o pedido possui apenas o item 45
+    And a distancia da entrega é de 10 km
+    When o sistema calcula o valor total
+    Then o resultado deve ser 50
