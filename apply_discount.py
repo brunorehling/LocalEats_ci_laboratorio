@@ -1,4 +1,4 @@
-from delivery import calculate_delivery 
+from delivery import calculate_delivery
 
 
 def apply_discount(total: calculate_delivery) -> float:
